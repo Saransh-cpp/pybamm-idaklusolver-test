@@ -19,7 +19,7 @@ jobs:
     - name: Clone PyBaMM
       run: |
         python -m pip install wheel
-        git clone -b develop --single-branch https://github.com/pybamm-team/PyBaMM
+        git clone -b idaklu-install-debug --single-branch https://github.com/pybamm-team/PyBaMM
     - name: Install casadi cmake numpy
       run: python -m pip install cmake casadi numpy
     - name: Install Sundials KLU and PyBaMM
